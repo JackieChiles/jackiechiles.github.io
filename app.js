@@ -1,7 +1,7 @@
 var express = require('express');
 var app = express();
 var server = require('http').createServer(app);
-var port = 8099;
+var port = 80;
 
 app.set('view engine', 'ejs');
 app.set('views', './');
